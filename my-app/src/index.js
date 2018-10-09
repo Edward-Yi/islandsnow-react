@@ -85,7 +85,9 @@ class IslandSnow extends React.Component {
               <Grid.Column>
                 CONNECT
                 <Divider />
-                  Sign up for the latest updates
+                <List>
+                  <List.Item>Sign up for the latest updates</List.Item>
+                </List>
 
                 <Input action={{color: 'black', content: 'Join'}} placeholder='Enter email address'></Input>
               </Grid.Column>
